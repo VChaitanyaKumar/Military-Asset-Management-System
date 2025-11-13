@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default {
   content: [
     "./index.html",
@@ -17,3 +18,24 @@ export default {
   },
   plugins: [],
 }
+=======
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        military: {
+          dark: '#1a2332',
+          medium: '#2d3e50',
+          light: '#4a5f7f',
+          accent: '#5c8a8a'
+        }
+      }
+    },
+  },
+  plugins: [],
+}
+>>>>>>> c6cf95a602ff79e08105c42299894920e05a36ac
